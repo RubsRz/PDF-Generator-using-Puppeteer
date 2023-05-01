@@ -16,6 +16,8 @@
         background-color: #f0f0f0;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 50vw;
+        height: auto;
       }
 
       /* Estilos para los inputs y el botón */
@@ -158,8 +160,8 @@
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
 
-      <label for="age">Age:</label>
-      <input type="number" id="age" name="age" required>
+      <label for="average">Average:</label>
+      <input type="number" id="average" name="average" required>
 
       <label for="date">Date:</label>
       <input type="date" id="date" name="date" required>
@@ -178,7 +180,7 @@
   function generatePDF() {   
 
     const name = $("#name").val()
-    const age = $("#age").val()
+    const average = $("#average").val()
     const date = $("#date").val()
     
 
@@ -187,14 +189,14 @@
 
 
 
-    if(!name || !age || !date){
+    if(!name || !average || !date){
       console.log("faltan datos")
     }
     else {
 
       const data = {
         name,
-        age,
+        average,
         dateformat
       }
 

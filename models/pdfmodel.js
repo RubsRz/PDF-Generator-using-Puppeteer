@@ -17,7 +17,7 @@ exports.generatepdf = async(req) => {
     // Actualiza los valores dinámicos con los parámetros recibidos
     const data = {
       name: req.body.name.toUpperCase(),
-      course: req.body.age.toUpperCase(),
+      course: req.body.average.toUpperCase(),
       date: req.body.dateformat.toUpperCase(),
     };
     
