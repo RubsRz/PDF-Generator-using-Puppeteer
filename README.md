@@ -1,14 +1,30 @@
 # PDF Generator using Puppeteer
 
-This is a project that uses the Puppeteer library for Node.js to generate PDF files from web pages. In this case, a function has been implemented that takes a simple HTML page with some input fields and generates a PDF file from it.
+A Node.js project that generates PDFs using Puppeteer.
 
-## Installation
+## Getting Started
 
-To install the project dependencies, you should run the following command in the root of the project:
-
-
+1. Clone the repository: `git clone https://github.com/RubsRz/PDF-Generator-using-Puppeteer.git`
+2. Install the dependencies: `npm install`
+3. Start the application: `npm run dev`
 
 ## Usage
 
-To run the project, you can use the following command:
+1. Access the web application in your browser at `http://localhost:3000`
+2. Enter the URL of the website you want to convert to PDF
+3. Fill the inputs
+4. Click the "Generate PDF" button
+5. Your PDF will be generated and downloaded automatically
+
+## Contributing
+
+Contributions are welcome! Please open a pull request or submit an issue if you encounter any bugs or have suggestions for improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Screenshots
+
+![PDF Example](scripts/pdfs/screenshot.png)
 
